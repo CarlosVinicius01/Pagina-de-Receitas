@@ -22,6 +22,7 @@
 
 html, body {
     background-color: var(--Stone0);
+    height: 100vh;
 }
 
 main {
