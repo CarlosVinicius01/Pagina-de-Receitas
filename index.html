@@ -6,10 +6,11 @@
     <title>Página de Receitas</title>
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
     <main>
-        <!-- IMAGEM NO CSS -->
+        <img src="assets/images/image-omelette.jpeg" alt="Foto Omelete">
         <h1>Simple Omelette Recipe</h1>
         <p>An easy quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
         <section id="preparation">
@@ -29,9 +30,10 @@
                 <li>1 tablespoon of butter or oil</li>
                 <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
             </ul>
+            <hr>
         </section>
         <section id="instructions">
-            <h2>instructions</h2>
+            <h2>Instructions</h2>
             <ol>
                 <li><strong>Beat the eggs:</strong> in a bowl, beat the eggs eith a pinch of salt and pepper until they are well mixed.You can add a tablespoon of water or milk for fluffier texture.</li>
                 <li><strong>Heat the pan:</strong> Place a frying pan over medium heat and add butter or oil.</li>
@@ -41,18 +43,19 @@
                 <li><strong>Enjoy:</strong> Server hot, with additional salt and pepper if needed.</li>
             </ol>
         </section>
+        <hr>
         <section id="nutrition">
             <h2>Nutrition</h2>
-            <p>the table below shows nutritional values per serving without the additional fillings.</p>
-            <ul>
+            <p>The table below shows nutritional values per serving without the additional fillings.</p>
+            <ul class="coluns">
                 <li>Calories</li>
                 <li>Carbs</li>
                 <li>Protein</li>
                 <li>Fat</li>
-                <li>277kcal</li>
-                <li>0g</li>
-                <li>20g</li>
-                <li>22g</li>
+                <li class="quantidade">277kcal</li>
+                <li class="quantidade">0g</li>
+                <li class="quantidade">20g</li>
+                <li class="quantidade">22g</li>
             </ul>
         </section>
     </main>
