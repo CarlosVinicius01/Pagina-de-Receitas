@@ -58,7 +58,7 @@ h2 {
 }
 
 hr {
-    width: 80%;
+    width: 88%;
 }
 
 #preparation  {
@@ -96,3 +96,18 @@ li {
     color: var(--Brown);
     font-weight: bolder;
 }
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-left: 60px;
+    padding-top: 10px;
+    }
+
+td {
+    width: 120px;
+    }
+
+td.quantidade {
+        text-align: center;
+    }
