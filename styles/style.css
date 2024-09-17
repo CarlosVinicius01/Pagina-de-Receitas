@@ -29,6 +29,7 @@ main {
     background-color: white;
     width: 375px;
     margin: auto;
+    margin-top: 50px;
     border-radius: 10px;
 }
 
@@ -91,15 +92,6 @@ li::marker {
     color: var(--Brown);
 }
 
-.color::marker {
-    color: var(--Rose1);
-}
-
-.coluns {
-    list-style-type: none;
-    columns: 2;
-}
-
 .quantidade {
     color: var(--Brown);
     font-weight: bolder;
@@ -114,6 +106,7 @@ table {
 
 td {
     width: 120px;
+    border-bottom: 1px solid var(--Stone1);
     }
 
 td.quantidade {
