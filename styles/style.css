@@ -87,6 +87,14 @@ li {
     padding: 5px;
 }
 
+li::marker {
+    color: var(--Brown);
+}
+
+.color::marker {
+    color: var(--Rose1);
+}
+
 .coluns {
     list-style-type: none;
     columns: 2;
