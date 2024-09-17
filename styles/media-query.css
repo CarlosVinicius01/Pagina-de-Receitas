@@ -14,7 +14,6 @@
     main {
         width: 600px;
         padding: 25px;
-        padding-bottom: 0;
     }
 
     img {
@@ -24,4 +23,12 @@
     .coluns {
         padding-bottom: 40px;
     }
+
+    table {
+        padding-bottom: 30px;
+    }
+
+    td {
+        width: 200px;
+        }
 }
